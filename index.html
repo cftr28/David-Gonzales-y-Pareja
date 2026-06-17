@@ -443,24 +443,62 @@
     font-weight: bold !important;
 }
 /* 1. Estilo de letra para los novios */
-    .nombres {
+    .nombres, .nombres-final {
         font-family: 'Dancing Script', cursive !important; /* Asegúrate de tener esta fuente importada */
         font-size: 3rem !important; 
         line-height: 1.2 !important;
         margin-bottom: 10px !important;
         color: #555 !important; /* Ajusta este color al gris de la foto */
     }
+/* ==============================
+   TARJETAS DE PADRES Y PADRINOS
+   ============================== */
 
-    /* 2. Ajuste de la foto principal para que no sea tan larga */
-    .foto-boda {
-        width: 85% !important; 
-        max-width: 300px !important;
-        height: 250px !important; /* Controla la altura fija para que no sea tan larga */
-        object-fit: cover !important; /* Esto evita que la foto se estire o se vea rara */
-        border: 6px solid white !important;
-        box-shadow: 0 5px 15px rgba(0,0,0,.15) !important;
-        margin: 10px auto 25px auto !important;
-    }
+/* Fondo y sombra para cada tarjeta blanca */
+.tarjeta-blanca-boda {
+    background: #ffffff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    margin: 20px auto !important;
+    padding: 25px !important;
+    width: 90% !important;
+    max-width: 480px !important;
+    text-align: center !important;
+}
+
+/* Títulos principales: "Nuestros Padres" y "Padrinos" */
+.titulo-seccion-boda {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2.2rem !important;
+    color: #666 !important;
+    margin-bottom: 25px !important;
+}
+
+/* Categorías: "NOVIA" y "NOVIO" (solo para Padres) */
+.rol-boda {
+    text-transform: uppercase !important;
+    color: #777 !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    margin-top: 15px !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Nombres de las personas: "Noé Bardales", "Eloy García", etc. */
+.nombres-personas-boda {
+    color: #666 !important;
+    font-size: 1.3rem !important;
+    margin: 5px 0 !important;
+    line-height: 1.4 !important;
+}
+
+/* Detalle especial para el (+) de los padres */
+.nombre-padre .con-cruz {
+    font-size: 1rem !important;
+    color: #888 !important;
+    margin-left: 2px !important;
+}
+   
 }
 
 
