@@ -373,28 +373,20 @@
         min-height:100%;
         overflow-x:hidden;
     }
-
-
-    body{
-
-        background-image:url('fotofondo.png') !important;
-        background-size:cover !important;
-        background-position:center top !important;
-        background-repeat:no-repeat !important;
-        background-attachment:scroll !important;
-
-        margin:0 !important;
-        padding:15px 0 !important;
-        background-color:#fafafa !important;
-
-        image-rendering:auto!important;
-    }
-.fondo-boda {
-        /* Cambiamos a la imagen de celular */
-        background-image: url('fotofondo.png') !important;
-        /* IMPORTANTE: Quitamos el 'fixed' en móviles para evitar la distorsión */
+    body {
+        /* <--- AQUÍ ESTÁ EL CAMBIO PARA CELULARES */
+        background-image: url('fotofondo.png') !important; 
+        background-size: cover !important;
+        background-position: center top !important;
+        background-repeat: no-repeat !important;
         background-attachment: scroll !important;
+        
+        margin: 0 !important;
+        padding: 15px 0 !important;
+        background-color: #fafafa !important;
     }
+
+
 
     .container{
 
